@@ -1,0 +1,26 @@
+<div class = "login-page is-hidden" data-mobel>
+    <div class = "modal-form">
+        <div class = "close-icon-container" data-mobel-close>
+            <svg width="30" height="30" class = "close-icon">
+                <use href = "" ></use>
+            </svg>
+        </div>
+     
+<form   class = "register-form" style = "display: none;">
+            <h2 class = "modal-title">Register</h2>  
+                <input type = "email" placeholder ="E-mail" id="reg-email" name ="regEmail"/>
+                <input type = "password" placeholder ="password" id="reg-password" name ="regPassword" autocomplete="on"/>
+                    <button onclick ="register()">create</button>
+                        <p class = "message login-message">Already registered? <a href = "#">Sign In</a></p>
+                    </form>
+        
+                <form class = "login-form" style = "display: block";>
+            <h2 class="modal-title">Login</h2>
+        <input type="email" placeholder="E-mail" id="log-email" name="loginemail"/>
+        <input type="password" placeholder="Password" id="log-password" name="loginPassword" autocomplete="on"/>
+              <button id ="submit" onclick="signIn()">login</button>
+                <p class="message create-message">Not registered? 
+                    <a href="#">Create an account</a></p> 
+                     </form>       
+        </div>
+        </div>
